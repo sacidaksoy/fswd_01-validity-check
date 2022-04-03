@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  margin: 25px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+select:focus{
+  border:none;
+}
+
+.rotate {
+transform: rotate(90deg);
+pointer-events: none;
+
+}
+
+
+input:hover {
+  background-color: rgba(100, 100, 100, 0.08) !important;
+}
+
+.btn:hover{
+  background-color: #4F75C2 !important;
+}
+
+.error {
+  color: #FF0000;
+}
+
+
+.error-input {
+  color: #FF0000;
+  border-color: #FF0000;
+}
+
+li {
+  list-style: inside;
+}
